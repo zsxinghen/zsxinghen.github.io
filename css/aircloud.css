@@ -374,6 +374,7 @@ body {
 }
 .post-preview-container {
   min-height: 420px;
+  padding: 20px;
 }
 .pager {
   width: 100%;
