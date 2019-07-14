@@ -11,7 +11,7 @@
 
     <title>
         
-        Tags - undefined
+        
         
     </title>
 
@@ -59,7 +59,7 @@
                     <span>HOME</span>
                 </a>
             </li>
-            <li class="active">
+            <li>
                 <a href="/blog/tags">
                     <i class="iconfont icon-biaoqian1"></i>
                     <span>TAGS</span>
@@ -88,6 +88,10 @@
         </ul>
     </div>
     
+        <div id="toc" class="toc-article">
+    
+</div>
+    
 </div>
 
 
@@ -111,59 +115,35 @@
     
     <div class="index-middle">
         <!-- Main Content -->
-        <div id="tag_cloud" class="tags">
-    
-    <a href="#js" title="js" rel="1">js</a>
-    
-    <a href="#canvas" title="canvas" rel="1">canvas</a>
-    
-</div>
-
-<!-- 标签列表 -->
+        
 
 
-<div class="one-tag-list">
-                <span class="fa fa-tag listing-seperator" id="js">
-                    <span class="tag-text">js</span>
-                </span>
-    
-    <!-- <li class="listing-item">
-    <time datetime="{{ post.date | date:"%Y-%m-%d" }}">{{ post.date | date:"%Y-%m-%d" }}</time>
-    <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a>
-    </li> -->
-    <div class="post-preview">
-        <a href="/blog/2019/06/12/canvas-canvas绘图工具/">
-            <h2 class="post-title">
-                canvas绘图工具
-            </h2>
-            
-        </a>
-        <!-- <p class="post-meta">{{ post.date | date:"%Y-%m-%d" }}</p> -->
+<div class="post-container">
+    <div class="post-title">
+        
     </div>
-    
-</div>
 
-<div class="one-tag-list">
-                <span class="fa fa-tag listing-seperator" id="canvas">
-                    <span class="tag-text">canvas</span>
-                </span>
-    
-    <!-- <li class="listing-item">
-    <time datetime="{{ post.date | date:"%Y-%m-%d" }}">{{ post.date | date:"%Y-%m-%d" }}</time>
-    <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a>
-    </li> -->
-    <div class="post-preview">
-        <a href="/blog/2019/06/12/canvas-canvas绘图工具/">
-            <h2 class="post-title">
-                canvas绘图工具
-            </h2>
-            
-        </a>
-        <!-- <p class="post-meta">{{ post.date | date:"%Y-%m-%d" }}</p> -->
+    <div class="post-meta">
+        <span class="attr">Post：<span>2019-06-30 23:00:28</span></span>
+        
+        
+        <span class="attr">Visit：<span id="busuanzi_value_page_pv"></span>
+</span>
+
     </div>
-    
-</div>
+    <div class="post-content ">
+        
+        
+        <br>
+        <div id="comment-container">
+        </div>
+        <div id="disqus_thread"></div>
 
+        <div id="lv-container">
+        </div>
+
+    </div>
+</div>
 
     </div>
 </div>
@@ -251,7 +231,7 @@
     // We expose some of the variables needed by the front end
     window.hexo_search_path = "search.xml"
     window.hexo_root = "/blog/"
-    window.isPost = false
+    window.isPost = true
 </script>
 <script src="https://cdn.bootcss.com/jquery/3.3.1/jquery.min.js"></script>
 <script src="/blog/js/index.js"></script>
