@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<search> 
+  
+  
+    
+    <entry>
+      <title></title>
+      <link href="/blog/2019/06/30/basic-hexo/"/>
+      <url>/blog/2019/06/30/basic-hexo/</url>
+      
+        <content type="html"><![CDATA[]]></content>
+      
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title></title>
+      <link href="/blog/2019/06/30/basic-markdown/"/>
+      <url>/blog/2019/06/30/basic-markdown/</url>
+      
+        <content type="html"><![CDATA[]]></content>
+      
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title></title>
+      <link href="/blog/2019/06/30/basic-npm/"/>
+      <url>/blog/2019/06/30/basic-npm/</url>
+      
+        <content type="html"><![CDATA[]]></content>
+      
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>canvas绘图工具</title>
+      <link href="/blog/2019/06/12/canvas-canvas%E7%BB%98%E5%9B%BE%E5%B7%A5%E5%85%B7/"/>
+      <url>/blog/2019/06/12/canvas-canvas%E7%BB%98%E5%9B%BE%E5%B7%A5%E5%85%B7/</url>
+      
+        <content type="html"><![CDATA[<p>####1.背景<br>让用户通过简单的操作，实现绘图功能。</p><p>####2.项目创建</p><p>######引入文件</p><p>######初始化</p><p>####3.功能</p><p>#####3.1图层<br>1</p><p>#####3.2图形</p><p>######图形种类</p><p>######图形样式</p><p>######功能</p><p>#####3.3点</p><p>####4.事件处理</p><p>#####原理</p><p>####发布</p><p>#####打包工具</p><p>#####发布地址</p><p>#####优化拓展</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 前端插件 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> js </tag>
+            
+            <tag> canvas </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+  
+  
+</search>
