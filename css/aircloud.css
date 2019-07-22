@@ -506,6 +506,8 @@ body {
 .tags {
   line-height: 30px;
   margin-bottom: 25px;
+  border-bottom: 1px solid #e4d5d5;
+  padding-bottom: 15px;
 }
 .tags a {
   text-decoration: none;
@@ -516,7 +518,7 @@ body {
   color: #4a4a4a;
 }
 .tags a::before {
-  content: "#";
+  content: "";
 }
 .one-tag-list {
   margin-bottom: 25px;
